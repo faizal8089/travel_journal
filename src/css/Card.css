@@ -1,0 +1,72 @@
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 5px 10px;
+}
+
+.card .image {
+  max-width: 125px;
+  height: 168px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 5px;
+  border-radius: .2em;
+}
+
+.card .details {
+  margin-left: 10px;
+}
+
+.card .details #locationDetails #marker {
+  width: 10px;
+  height: 10px;
+}
+
+.card .details #locationDetails #location {
+  font-size: 10.24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  line-height: 12.39px;
+  letter-spacing: 17%;
+  padding-left: 5px;
+}
+
+.card .details #locationDetails #map {
+  color: grey;
+  font-size: 10.24px;
+  line-height: 12.39px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.card .details #title {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.26px;
+  margin-bottom: -5px;
+}
+
+.card .details #date {
+  margin-top: 10px;
+  font-size: 10.24px;
+  font-weight: 700;
+  line-height: 12.39px;
+}
+
+.card .details #description {
+  margin-top: 5px;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 15.36px;
+  letter-spacing: 0.5px;
+}
+/*# sourceMappingURL=Card.css.map */

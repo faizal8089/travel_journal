@@ -1,0 +1,21 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  font-family: "poppins", sans-serif;
+}
+
+.section {
+  margin-top: 25px;
+  width: auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+hr {
+  background-color: #cdcdcd;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/*# sourceMappingURL=App.css.map */

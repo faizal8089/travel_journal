@@ -1,0 +1,24 @@
+.navbar{
+    width: auto;
+    height: 55px;
+    background-color: #F55A5A;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    padding-top: 15px;
+    #logo{
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        height: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        .logoimg{
+            width: 24px;
+            height: 24px;
+        }
+        .logotitle{
+            padding-left: 5px;
+            font-size: 14.46px;
+            color: white;
+        }
+    }
+}
